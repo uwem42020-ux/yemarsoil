@@ -36,7 +36,7 @@ export default function AboutPage() {
         className="relative bg-cover bg-center py-32 md:py-40"
         style={{
           backgroundImage:
-            "linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url('/images/banner-slider.png')",
+            "linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url('/images/yemars-oil-gas-hero.png')",
         }}
       >
         <div className="max-w-7xl mx-auto px-4 text-center">
@@ -55,8 +55,8 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
           <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-xl">
             <Image
-              src="/images/ceo.jpeg"
-              alt="Yemars Oil and Gas leadership"
+              src="/images/yemars-ceo.jpeg"
+              alt="CEO of Yemars Oil and Gas"
               fill
               className="object-cover"
             />
@@ -174,7 +174,7 @@ export default function AboutPage() {
             <div className="bg-white rounded-lg overflow-hidden shadow-md">
               <div className="relative h-64">
                 <Image
-                  src="/images/group-pictures.png"
+                  src="/images/yemars-team-group.png"
                   alt="Yemars Oil and Gas management team"
                   fill
                   className="object-cover"
@@ -190,7 +190,7 @@ export default function AboutPage() {
             <div className="bg-white rounded-lg overflow-hidden shadow-md">
               <div className="relative h-64">
                 <Image
-                  src="/images/workers-on-site.png"
+                  src="/images/yemars-construction-site.png"
                   alt="Yemars Oil and Gas field engineers"
                   fill
                   className="object-cover"
@@ -206,7 +206,7 @@ export default function AboutPage() {
             <div className="bg-white rounded-lg overflow-hidden shadow-md">
               <div className="relative h-64">
                 <Image
-                  src="/images/worker-4.png"
+                  src="/images/yemars-field-engineer.png"
                   alt="Yemars Oil and Gas technical staff"
                   fill
                   className="object-cover"

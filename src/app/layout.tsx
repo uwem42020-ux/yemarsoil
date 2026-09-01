@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     siteName: "Yemars Oil and Gas",
     images: [
       {
-        url: "/yemarslogo-og.png",        // absolute URL: https://yemars.com/yemarslogo-og.png
-        width: 600,                       // ← Replace with actual width of your image
-        height: 300,                       // ← Replace with actual height of your image
+        url: "/yemarslogo-og.png",
+        width: 1200,
+        height: 630,
         alt: "Yemars Oil and Gas Logo",
       },
     ],
@@ -50,6 +50,32 @@ export const metadata: Metadata = {
   },
 };
 
+// JSON-LD structured data for Organization
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Yemars Oil and Gas",
+  url: "https://yemars.com",
+  logo: "https://yemars.com/yemarslogo.png",
+  image: "https://yemars.com/yemarslogo-og.png",
+  description: "Yemars Oil and Gas provides engineering, procurement, and construction services for the oil, gas, and power industries.",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Revival Land City, Lagasa Road Eputu, Ibeju Lekki",
+    addressLocality: "Lagos",
+    addressCountry: "NG",
+  },
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: "+2347065851461",
+    contactType: "customer service",
+    email: "info@yemars.com",
+  },
+  sameAs: [
+    // Add your social media URLs when available
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -57,6 +83,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+      </head>
       <body>
         <Header />
         {children}
