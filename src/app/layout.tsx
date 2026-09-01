@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     siteName: "Yemars Oil and Gas",
     images: [
       {
-        url: "/yemarslogo.png",           // Absolute URL: https://yemars.com/yemarslogo.png
-        width: 600,                        // Set these to match your logo's actual dimensions
-        height: 300,                       // (If your logo is 200x100, change to 200,100)
+        url: "/yemarslogo-og.png",        // absolute URL: https://yemars.com/yemarslogo-og.png
+        width: 600,                       // ← Replace with actual width of your image
+        height: 300,                       // ← Replace with actual height of your image
         alt: "Yemars Oil and Gas Logo",
       },
     ],
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Yemars Oil and Gas",
     description: "Reliable energy and petroleum solutions.",
-    images: ["/yemarslogo.png"],           // Same image for Twitter cards
+    images: ["/yemarslogo-og.png"],
   },
   robots: {
     index: true,

@@ -9,7 +9,7 @@ export default function Home() {
         className="relative bg-cover bg-center py-32 md:py-40"
         style={{
           backgroundImage:
-            "linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url('/images/slider.JPG')",
+            "linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url('/images/banner slider.png')",
         }}
       >
         <div className="max-w-7xl mx-auto px-4">
@@ -65,8 +65,8 @@ export default function Home() {
           </div>
           <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-xl">
             <Image
-              src="/images/portfolio.jpg"
-              alt="Yemars Oil and Gas team"
+              src="/images/CEO.jpeg"
+              alt="Yemars Oil and Gas CEO"
               fill
               className="object-cover"
             />
@@ -95,37 +95,37 @@ export default function Home() {
             {[
               {
                 title: "Engineering",
-                image: "/images/other%20picture%20of%20engineers.JPG",
+                image: "/images/workers on site.png",
                 description:
                   "Front-end engineering design, detailed engineering, and project management.",
               },
               {
                 title: "Procurement",
-                image: "/images/lanscape%20image.JPG",
+                image: "/images/worker 4.png",
                 description:
                   "Global sourcing, vendor management, and logistics for all project materials.",
               },
               {
                 title: "Construction & Installation",
-                image: "/images/installation%20potraite.JPG",
+                image: "/images/workers4.png",
                 description:
                   "Onshore and offshore construction, steel fabrication, and equipment installation.",
               },
               {
                 title: "Pipeline Maintenance",
-                image: "/images/pipe%20line%20maintaence.JPG",
+                image: "/images/group pictures.png",
                 description:
                   "Routine inspection, repair, and maintenance of pipelines to ensure integrity.",
               },
               {
                 title: "Corrosion Prevention & Control",
-                image: "/images/slider%202.JPG",
+                image: "/images/workers.jfif",
                 description:
                   "Blasting, painting, and cathodic protection to extend asset life.",
               },
               {
                 title: "Underwater Leak Repair",
-                image: "/images/under%20water%20leak.JPG",
+                image: "/images/banner slider.png",
                 description:
                   "Specialized underwater intervention and leak sealing for subsea infrastructure.",
               },

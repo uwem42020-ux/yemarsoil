@@ -127,17 +127,8 @@ export default function Header() {
             </Link>
           </div>
 
-          {/* Mobile Right side: expanded buttons + hamburger */}
+          {/* Mobile Right side: only Brochure button + hamburger */}
           <div className="lg:hidden flex items-center gap-2">
-            <Link
-              href="/contact"
-              className="bg-red-600 hover:bg-red-700 text-white font-semibold px-3 py-2 rounded-md text-sm flex items-center gap-1"
-            >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5zm7 10l5-3-5-3v6z" />
-              </svg>
-              Contact
-            </Link>
             <Link
               href="/brochure.pdf"
               target="_blank"
