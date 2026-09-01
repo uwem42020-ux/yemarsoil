@@ -22,14 +22,20 @@ export const metadata: Metadata = {
     siteName: "Yemars Oil and Gas",
     images: [
       {
-        url: "/yemarslogo.png",
-        width: 200,
-        height: 100,
+        url: "/yemarslogo.png",           // Absolute URL: https://yemars.com/yemarslogo.png
+        width: 600,                        // Set these to match your logo's actual dimensions
+        height: 300,                       // (If your logo is 200x100, change to 200,100)
         alt: "Yemars Oil and Gas Logo",
       },
     ],
     locale: "en_US",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Yemars Oil and Gas",
+    description: "Reliable energy and petroleum solutions.",
+    images: ["/yemarslogo.png"],           // Same image for Twitter cards
   },
   robots: {
     index: true,
